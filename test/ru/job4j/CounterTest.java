@@ -13,4 +13,10 @@ public class CounterTest {
         int expected = 30;
         assertThat(rsl, is(expected));
     }
+    @Test
+    public void whenSumEvenNumbersFromThreeToFiveThenFour() {
+        int rsl = Counter.sumByEven(3, 5);
+        int expected = 4;
+        assertThat(rsl, is(expected));
+    }
 }
