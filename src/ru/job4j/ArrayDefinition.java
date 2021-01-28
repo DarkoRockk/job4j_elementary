@@ -9,13 +9,11 @@ public class ArrayDefinition {
         System.out.println("Размер ages: " + ages.length);
         System.out.println("Размер surnames: " + surnames.length);
         System.out.println("Размер prices: " + prices.length);
-
         String[] names = new String[4];
         names[0] = "Иван Иванов";
         names[1] = "Петр Петров";
         names[2] = "Дмитрий Шадрин";
         names[3] = "Гомер Симпсон";
-
         for (int i = 0; i < names.length; i++) {
             System.out.println("name[" + i + "] = " + names[i]);
         }
